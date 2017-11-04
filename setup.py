@@ -3,7 +3,7 @@ Stream any media content using console
 """
 from setuptools import setup
 
-dependencies = ['click', 'beautifulsoup4', 'lxml']
+dependencies = ['bs4', 'lxml', 'requests', 'argparse']
 
 setup(
     name='torstream',
