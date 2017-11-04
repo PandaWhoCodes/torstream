@@ -1,5 +1,5 @@
 """
-Stream any media content using a python script- (soon to be console)
+Stream any media content using console
 """
 from setuptools import setup
 
@@ -7,12 +7,12 @@ dependencies = ['click', 'beautifulsoup4', 'lxml']
 
 setup(
     name='torstream',
-    version='0.1.0',
+    version='0.1.2',
     url='https://github.com/PandaWhoCodes/torstream',
     license='MIT',
     author='Thomas Ashish Cherian',
     author_email='ufoundashish@gmail.com',
-    description='Stream any media content using a python script- (soon to be console)',
+    description='Stream any media content using console',
     long_description=__doc__,
     packages=['torstream'],
     include_package_data=True,
