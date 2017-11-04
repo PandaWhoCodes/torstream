@@ -1,4 +1,5 @@
 # torstreamer
+[![Build Status](https://travis-ci.org/PandaWhoCodes/torstream.svg?branch=master)](https://travis-ci.org/PandaWhoCodes/torstream)
 
 Stream any media content from your console
 
