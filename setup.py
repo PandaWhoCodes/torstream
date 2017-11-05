@@ -7,7 +7,7 @@ dependencies = ['bs4', 'lxml', 'requests', 'argparse']
 
 setup(
     name='torstream',
-    version='0.1.2',
+    version='0.1.5',
     url='https://github.com/PandaWhoCodes/torstream',
     license='MIT',
     author='Thomas Ashish Cherian',

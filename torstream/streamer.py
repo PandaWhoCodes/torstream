@@ -1,5 +1,5 @@
 import argparse
-from torstream import zooqle , peerflix_test
+from torstream import knaben , peerflix_test
 
 
 def torrent(query):
@@ -8,7 +8,7 @@ def torrent(query):
     :param query: The name of the torrent you want to stream
     :return: VLC stream
     """
-    zooqle.main(query)
+    knaben.main(query)
 
 
 def argParser():
@@ -25,6 +25,3 @@ def argParser():
         torrent(args.media)
     except ValueError:
         print("Failed to connect to server: Please try again!")
-
-# if __name__ == '__main__':
-#     argParser()
