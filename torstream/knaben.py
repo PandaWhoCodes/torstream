@@ -39,13 +39,13 @@ def process_results(results):
     """
     if len(results) >= 1:
         temp_data = {}
-        count = 0
+        count = 1
         print("Here are the top {} results for your query, which one would you like to stream".format(
             "5" if len(results) > 5 else str(len(results))))
         for label in results.keys():
             temp_data[count] = label
-            count = count + 1
             print(count, label)
+            count = count + 1
             if count == 5:
                 print("Enter your choice:")
                 break
